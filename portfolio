@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HarshalCreation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="hh.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="cloud.png" alt="cloud">
+        <div class="title-text">
+            <h1>I'm Harshal.</h1>
+            <h2>a <span class="pro">pro</span>grammer.</h2>
+        </div>
+        <img class="bottom-cloud" src="cloud.png" alt="cloud">
+        <img class="programer" src="programer.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+        <div class="aligmentImg">
+            <img style="position:relative;right:32.5%;bottom:60px; " src="harsh.jpg"
+                alt="Harshal-img" class="center">
+
+            <h2 style="position:relative;right:33%;bottom:100px; ">Hello.</h2>
+        </div>
+        <div class="intro">
+            <img src="oop.jpg" alt="codemate" height="100px" width="500px">
+            <p>My name is <strong> Harshal Yuvraj Borkar</strong>, I am Software developer and this is my portfolio
+                (resume) And currently working as a intern at <strong><u>Revat Network</u> .</strong> </p>
+        </div>
+
+    </div>
+
+
+
+    <div class="skills">
+        <h2><u> My Skills.</u></h2>
+        <div class="skill-row">
+            <!-- <img class="code-img" 
+                src="code.mp4"
+                alt="code-img"> -->
+
+            <h3><strong>Web Designing & Development</strong> </h3><br>
+            <div class="contentSkill">
+                <p>
+                    I started my journey in my early college days I was very found to learn new things amoungs of which
+                    I had found web development a bit interesting and this website is one of my creations.
+                    Some of the technologies explored in my journey.
+                </p>
+
+
+
+                <img class="imgSkills" src="skills.png" alt="skills Img">
+            </div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+
+            <div class="wrapper">
+                <h3>Web Development reposetory</h3>
+                <div id="slide" />
+                <a class="btn" href="">Github</a>
+            </div>
+            <p>You can contribute to my Web Development reposetory 👇</p>
+        </div>
+
+
+    </div>
+    <!--   -------- -->
+    <div class="skills">
+        <div class="skill-row">
+            <img style="size: 50%;" class="code-img" src="java.png" alt="code-img">
+
+            <h3><strong>Java with DSA and system design</strong> </h3><br>
+            <div class="contentSkill">
+                <p>
+                    Java is kind of my first love, true programming language in which I had developed algorithms for
+                    sorting college rank by OOPS concept implementation to optimize code which incresses reusability of
+                    code by recursion and buid many tiny fun games (Rock paper secior, Guesser) even solved 20+
+                    leeadcode questions on DSA.
+                </p>
+            </div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+
+            <div class="wrapper">
+                <h3>Java code reposetory</h3>
+                <div id="slide" />
+                <a class="btn"
+                    href="">Github</a>
+            </div>
+            <p>Your contribute meen lot to me.
+                By clicking this bottom you can contribute to java code 👇</p>
+        </div>
+
+
+    </div>
+
+    <!-- -----Acaemics___ -->
+    <div class="skill-row">
+       <!-- <img class="chilli-img" src="chillies.png" alt="chillies-img"> -->
+        <div class="contentSkill" style="border-bottom-left-radius: 0%;">
+            <h3><strong>Academic details</strong></h3>
+            <p> A single pice of paper can not deside my future 😊 but here are my some academic deatils </p>
+            <table border="solid" cellspacing="5" cellpadding="8">
+                <tr>
+                    <th> Academic Stages</th>
+                    <th>view result</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"> B.tech. <br>
+                        1<sup style="vertical-align: super;
+              font-size: smaller;">st</sup> semester result</td>
+
+                    <td style="text-align: center;"> <a href="images/1nd sem.jpg" target="_blank">View</a> </td>
+
+                </tr>
+                <tr>
+                    <td style="text-align: center;"> B.tech. <br>
+                        2<sup style="vertical-align: super;
+              font-size: smaller;">st</sup> semester result</td>
+
+                    <td style="text-align: center;"> <a href="images/2nd sem.jpg" target="_blank">View</a> </td>
+
+                </tr>
+                <tr>
+                    <td style="text-align: center;">MHT CET</td>
+
+                    <td style="text-align: center;"> <a href="images/MHTCET.jpg" target="_blank">View</a> </td>
+
+                </tr>
+                <tr>
+                    <td style="text-align: center;">HSC</td>
+
+                    <td style="text-align: center;"> <a href="images/hsc mark sheet final.jpg" target="_blank">View</a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="text-align: center;">SSC</td>
+
+                    <td style="text-align: center;"> <a href="images/chillies.png" target="_blank">View</a> </td>
+
+                </tr>
+            </table>
+        </div>
+
+
+        <!-- <---contanct me--->
+        <hr>
+    </div>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Do you want to learn and enhance your skills ? </h3>
+        <p class="contact-message"> Then lets connect with each other to build amazing project</p>
+        <a class="btn" href="">CONTACT ME</a>
+    </div>
+    </div>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="">LinkedIn</a>
+        <a class="footer-link" href="">Instagram</a>
+        <a class="footer-link" href="">Gmail</a>
+
+        <p class="copyright">© Harshal @ Creation.</p>
+    </div>
+</body>
+
+</html>
