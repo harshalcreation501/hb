@@ -1,0 +1,39 @@
+.body{
+    background-image: url(harshalb.html);
+    background-repeat: none;
+    background-size: cover;
+    opacity: 0.6;
+    background-color: blue;
+}
+.org{
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+   position: relative;
+    top: 10px;
+    left: 50px;
+    opacity: 0.6;
+   /* z-index: 2;*/
+}
+.mag{
+    width: 400px;
+    height: 200px;
+    background-color: magenta;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    opacity: 0.6;
+    /*z-index:3;*/
+}
+.tl{
+    width: 400px;
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    left: 80px;
+    top: -90px;
+    /*z-index: 1;*/
+    color: aliceblue;
+    opacity: 0.6;
+}
+   

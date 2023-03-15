@@ -1,0 +1,36 @@
+.org{
+    width: 500px;
+    height: 400px;
+    /*background-color: orange;*/
+    background-image: url(dj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: 50px;
+   /* z-index: 2;*/
+}
+.mag{
+    width: 400px;
+    height: 200px;
+    background-color: magenta;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    opacity: 0.6;
+    /*z-index:3;*/
+}
+.tl{
+    width: 400px;
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    left: 80px;
+    top: -90px;
+    /*z-index: 1;*/
+    color: aliceblue;
+  /*  opacity: 0.6;*/
+}
+h1{
+    color: whitesmoke;
+}

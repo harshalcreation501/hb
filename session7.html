@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+       
+    </head>
+        
+<body>
+    <div class="top-head">
+        <h2 class="logoText">Student Details</h2>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Workshops</a></li>
+            <li><a href="#">Download</a></li>
+        </ul>
+    </div>
+    </div>
+    <form method="post" class="fm">
+ 
+        <label for="nm">Name</label>
+        <input type="text" name="fnm" value="" placeholder="Plz enter your name" required>
+        <br><br>
+        <label for="en">Email</label>
+        <input type="text" name="eid" id="nm" value="" placeholder=" Student email id" required>
+        <br><br>
+       <label for="pass">Password</label>
+       <input type="password" name="psw" id="pass" value="" placeholder="password" required>
+       <br><br>
+        <label for="cnt">Contact</label>
+        <input type="text" name="cnt" maxlength="10" value="" placeholder= "student contact number" required>
+        <br><br>
+        <label for="gn">Gender</label><br>
+        <input type="radio" name="gen" id="gn1" value="female">Female</lable>
+        <input type="radio" name="gen" id="gn2" value="male">Male</lable><br><br>
+        
+       <!---- <label>Document submited</label>
+        <input type="cheakbox">
+       -->
+
+       <label>City</label>
+       <select name="cty" id="ct">
+           <option value="Ngp">Nagpur</option>
+           <option value="Pune">Pune</option>
+           <option value="Mumbai">Mumbai</option>
+           <option value="Nasik">Nasil</option>
+       </select>
+        <br><br>
+       <label for="pic">Photo</label>
+       <input type="file" name="pix">
+        <br><br>
+        <label for="cnt"><b>Documents:</b></label><br>
+        <input type="checkbox" name="fnm">Marksheet<br>
+        <input type="checkbox" name="fnm">Leaving certificate<br>
+        <input type="checkbox" name="fnm">Caste certificate<br>
+        <input type="checkbox" name="fnm">Validity<br>
+        <br><br>
+       <input type="submit" name="add" value="Submit">
+        
+    </form>
+</body>
+</html>
